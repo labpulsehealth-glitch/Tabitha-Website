@@ -911,3 +911,190 @@ footer {
     }
 
 }
+/* =========================
+   THINGS THAT DIDN'T WORK
+========================= */
+
+.didnt-work {
+
+    padding: 130px 7%;
+
+    background: var(--cream);
+
+    border-top: 1px solid var(--border);
+
+}
+
+.didnt-work-inner {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+}
+
+.didnt-work h2 {
+
+    max-width: 850px;
+
+    font-size: clamp(50px, 8vw, 105px);
+
+    line-height: 0.95;
+
+    letter-spacing: -4px;
+
+    margin-bottom: 35px;
+
+}
+
+.didnt-work-intro {
+
+    max-width: 650px;
+
+    color: var(--muted);
+
+    font-size: 18px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.lessons-grid {
+
+    margin-top: 70px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+
+}
+
+
+.lesson-card {
+
+    padding: 35px;
+
+    min-height: 300px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 24px;
+
+    background: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    transition: 0.3s ease;
+
+}
+
+.lesson-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 20px 40px rgba(53, 20, 36, 0.07);
+
+}
+
+.lesson-number {
+
+    color: var(--wine);
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 18px;
+
+}
+
+.lesson-card h3 {
+
+    font-size: 30px;
+
+    margin-top: 30px;
+
+    margin-bottom: 12px;
+
+}
+
+.lesson-card p {
+
+    color: var(--muted);
+
+    font-size: 15px;
+
+}
+
+
+.little-note {
+
+    margin-top: 70px;
+
+    padding: 30px;
+
+    border-left: 3px solid var(--peach);
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.little-note span {
+
+    color: var(--wine);
+
+    font-size: 24px;
+
+}
+
+.little-note p {
+
+    color: var(--muted);
+
+    font-family: "Playfair Display", serif;
+
+    font-style: italic;
+
+    font-size: 19px;
+
+}
+
+
+@media (max-width: 800px) {
+
+    .didnt-work {
+
+        padding: 90px 5%;
+
+    }
+
+    .didnt-work h2 {
+
+        letter-spacing: -2px;
+
+    }
+
+    .lessons-grid {
+
+        grid-template-columns: 1fr;
+
+        margin-top: 50px;
+
+    }
+
+    .lesson-card {
+
+        min-height: 250px;
+
+    }
+
+}
