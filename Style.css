@@ -759,3 +759,155 @@ footer {
     }
 
 }
+/* =========================
+   PROJECT PAGE
+========================= */
+
+.project-page {
+    padding: 130px 7% 100px;
+}
+
+.project-back {
+    margin-bottom: 80px;
+}
+
+.project-back a {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.project-back a:hover {
+    color: var(--wine);
+}
+
+.project-hero {
+    max-width: 1000px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid var(--border);
+}
+
+.project-hero h1 {
+    font-size: clamp(70px, 12vw, 150px);
+    line-height: 0.9;
+    letter-spacing: -6px;
+    margin: 20px 0;
+}
+
+.project-hero h1 span {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: var(--wine);
+}
+
+.project-intro {
+    font-size: 22px;
+    color: var(--muted);
+}
+
+.project-details {
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.detail-block h2 {
+    font-size: clamp(40px, 5vw, 65px);
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+}
+
+.detail-block > p:not(.section-number) {
+    color: var(--muted);
+    max-width: 520px;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    list-style: none;
+}
+
+.project-list li {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 25px;
+    font-size: 17px;
+}
+
+.project-list span {
+    color: var(--wine);
+    font-family: "Playfair Display", serif;
+}
+
+.project-lesson {
+    background: var(--soft-peach);
+    padding: 90px 8%;
+    border-radius: 30px;
+}
+
+.project-lesson h2 {
+    max-width: 800px;
+    font-size: clamp(45px, 7vw, 90px);
+    line-height: 1;
+    letter-spacing: -3px;
+    margin-bottom: 35px;
+}
+
+.project-lesson > p:not(.section-number) {
+    max-width: 650px;
+    color: var(--muted);
+    margin-bottom: 18px;
+    font-size: 17px;
+}
+
+.project-end {
+    padding: 100px 0 20px;
+    text-align: center;
+}
+
+.project-end > p {
+    color: var(--muted);
+    margin-bottom: 25px;
+}
+
+.project-end div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 800px) {
+
+    .project-page {
+        padding: 120px 5% 70px;
+    }
+
+    .project-back {
+        margin-bottom: 55px;
+    }
+
+    .project-hero {
+        padding-bottom: 65px;
+    }
+
+    .project-hero h1 {
+        font-size: 75px;
+        letter-spacing: -4px;
+    }
+
+    .project-details {
+        grid-template-columns: 1fr;
+        gap: 70px;
+        padding: 70px 0;
+    }
+
+    .project-lesson {
+        padding: 60px 30px;
+    }
+
+}
