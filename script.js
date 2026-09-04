@@ -22,3 +22,10 @@ function openLetter() {
     }
 
 }
+function openLetter() {
+    const letter = document.getElementById("letterContent");
+
+    if (letter) {
+        letter.classList.toggle("show");
+    }
+}
